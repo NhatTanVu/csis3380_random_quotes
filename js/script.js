@@ -34,6 +34,12 @@ let quotes = [
     {
         quote: "Just Do It",
         source: "Nike"
+    },
+    {
+        quote: "お前はもう死んでいる (You are already dead)",
+        source: "ケンシロウ (Kenshiro)",
+        citation: "北斗の拳 (Fist of the North Star)",
+        year: "1983"
     }
 ];
 let currentNumber = -1;
@@ -68,6 +74,7 @@ function printQuote() {
     // 1. Create a variable that calls the getRandomQuote()
     // function
     let randomQuote = getRandomQuote();
+    console.log(randomQuote);
 
     // 2. Create a variable that initiates your HTML string with
     // the first two <p></p> elements, their classNames,
