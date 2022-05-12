@@ -16,6 +16,12 @@ let quotes = [
         source: "Julius Caesar"
     },
     {
+        quote: "Don’t Just Follow Your Passions—Broaden Them",
+        source: "Barbara Oakley",
+        citation: "coursera.org",
+        year: "2021"
+    },
+    {
         quote: "My Mama Always Said Life Was Like A Box Of Chocolates. You Never Know What You're Gonna Get.",
         source: "Forrest Gump",
         citation: "Forrest Gump",
@@ -83,7 +89,7 @@ function printQuote() {
     // appropriate className, and year property to the HTML
     //string
     if (randomQuote.year) {
-        PtoHTML1 += `<span class="year">${randomQuote.citation}</span>`;
+        PtoHTML1 += `<span class="year">${randomQuote.year}</span>`;
     }
 
     // 5. After the two if statements, concatenate the closing </p>
