@@ -12,7 +12,7 @@ let quotes = [
         year: "1997"
     },
     {
-        quote: "Veni, vidi, vici",
+        quote: "Veni, vidi, vici (I came, I saw, I conquered)",
         source: "Julius Caesar"
     },
     {
