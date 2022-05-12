@@ -1,2 +1,2 @@
-# CSIS3380: Project / Lab 1
+# CSIS3380: Project 1
 Display random quotes
